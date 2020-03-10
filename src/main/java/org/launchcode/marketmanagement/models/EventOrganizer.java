@@ -1,8 +1,10 @@
 package org.launchcode.marketmanagement.models;
 
+import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
+@Entity
 public class EventOrganizer extends AbstractEntity{
 
     private String username;
